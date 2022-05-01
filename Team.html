@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CytoTalk</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"> <!--<img src=""> -->CytoTalk LLC</a>
+        <nav class="navigation" id="myTopnav">
+            <a href="index.html#services">Services</a>
+            <a href="index.html#projects">Events</a>
+            <a href="Team.html">Team</a>
+            <a href="publications.html">Publications</a>
+            <a href="Careers.html">Careers</a>
+            <a href="index.html#contact">Contact Us</a>
+            <a href="javascript:void(0);" class="icon-nav" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+    </header>
+    <!-- function-->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "navigation") {
+            x.className += " responsive";
+          } else {
+            x.className = "navigation";
+          }
+        }
+    </script>
+    <!-- End of function -->
+
+
+    <section class="cards">
+        <h1 class="title">Team Members</h1>
+        <div class = "Team">
+            <div class = "member-card">
+                <div class="personal-image">
+                <img src="images/safwat4.png">
+                </div>
+                <div class="personal-info">
+                    <h2>Ahmed S Abouhashem, MSc</h2>
+                    <h2>Founder</h2><br>
+                    <p>Head of Bioinformatics Unit, Ministry of Health, Sharkia, Egypt.<br><br>
+                        Master of Biotechnology, The American University in Cairo.<br><br>
+                    </p>
+                </div>
+            </div>
+            <div class = "member-card">
+                <div class="personal-image">
+                    <img src="images/Elbaz.png">
+                </div>
+                <div class="personal-info">
+                    <h2>Ahmed Elbaz, MSc</h2>
+                    <h2>Co-Founder</h2><br>
+                    <p>Master of Biotechnology, The American University in Cairo.<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">Copyright © <span>2020 CytoTalk - All Rights Reserved.</span></p>
+        <p class="company-Address">1603 Capitol Ave. Suite 310 A105, Cheyenne, Wyoming 82001, United States</p>
+        <div class="social-icons">
+            <a href="https://eg.linkedin.com/company/cytotalk?trk=public_profile_topcard-current-company"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/Cytotalk2020/"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://www.facebook.com/cytotalk/"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://github.com/CytoTalk"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

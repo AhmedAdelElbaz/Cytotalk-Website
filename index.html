@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CytoTalk</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo" id="logo"> <!--<img src=""> -->CytoTalk LLC</a>
+        <nav class="navigation" id="myTopnav">
+            <a href="#services">Services</a>
+            <a href="#projects">Events</a>
+            <a href="Team.html">Team</a>
+            <a href="publications.html">Publications</a>
+            <a href="Careers.html">Careers</a>
+            <a href="#contact">Contact Us</a>
+            <a href="javascript:void(0);" class="icon-nav" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+    </header>
+    <!-- function-->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "navigation") {
+            x.className += " responsive";           
+          } else {
+            x.className = "navigation";
+          }
+
+        }
+        </script>
+    <!-- End of function -->
+
+    <section class="main">
+        <div> 
+            <h2 ><br><span class="slogan">We Uncover the Mystery</span></h2>
+            <h3></h3>
+            <a href="#contact" class="main-btn">Contact Us</a>
+            <div class="social-icons">
+                <a href="https://eg.linkedin.com/company/cytotalk?trk=public_profile_topcard-current-company"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/Cytotalk2020/"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="https://www.facebook.com/cytotalk/"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://github.com/CytoTalk"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content" id = "Serve">
+            <div class="card">
+                <div>
+                    <img class="service-img" src="images/0102.png">
+                </div>
+                <div class="info">
+                    <h3>Research Consultation</h3>
+                    <p class="service-description">CytoTalk Research Consultation Service provides you with experienced research experts to develop, and excute high-quality research focused on developmental biology, cancer and computational immunology. Our team would provide you with a list of available high-throughput datasets and discuss with you potential points to answer your research questions, generate hypotheses or apply for grants. To schedule your free consulation, contact us at info@cytotalk.com </p>
+                    <!--<a href="" class="more-details">more details</a>-->
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <img class="service-img" src="images/scrna1.png">
+                </div>
+                <div class="info">
+                    <h3>Single Cell Data Analysis</h3>
+                    <p class="service-description">Single cell analysis includes visualization and providing results to discuss available options and further analysis steps. Our team will analyze your in-house single cell datasets and any single cell dataset available on public domains. For more information, contact us at info@cytotalk.com </p>
+                    <!--<a href="" class="more-details">more details</a>-->
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <img class="service-img" src="images/001.png">
+                </div>
+                <div class="info">
+                    <h3>Mini-Courses</h3>
+                    <p class="service-description">We provide mini-courses for individuals and research laboratories. Your lab members will acquire necessary skills to analyze high-throughput biological datasets. Our courses include differential expression analysis, gene set enrichment analysis, protein-protein interaction analysis, single cell analysis and others. For more information about our mini-courses, contact us at info@cytotalk.com </p>
+                    <!--<a href="" class="more-details">more details</a>-->
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Events</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/001.png">
+                </div>
+                <div class="project-info">
+                    <h2 class="project-main-title">Gene Set Enrichment Analysis Overview</h2>
+                    <p class="project-category">The workshop includes 3 days of hands-on training on downstream analysis of differentially expressed genes. The training includes pathways and biological processes enrichment and visualizing results using CytoScape software.</p>
+                    <strong class="project-title">
+                        <span>Sep 6<sup>th</sup> 2021</span>
+                        <a href="https://www.facebook.com/105766281425256/posts/245561927445690/?d=n" class="more-details">more details</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="info-card">
+                <div class="icon">
+                    
+                    <a href="https://maps.google.com/maps?q=1603%20Capitol%20Ave.%20Suite%20310%20A105,%20Cheyenne,%20Wyoming%2082001,%20United%20States&t=&z=13&ie=UTF8&iwloc"><i class="fas fa-map-marker-alt"></i></a>
+                </div>
+                <div class="info">
+                    <h3>Address</h3>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>info@cytotalk.com</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+1 (307)-317-3005</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Copyright © <span>2020 CytoTalk - All Rights Reserved.</span></p>
+        <p class="company-Address">1603 Capitol Ave. Suite 310 A105, Cheyenne, Wyoming 82001, United States</p>
+        <div class="social-icons">
+            <a href="https://eg.linkedin.com/company/cytotalk?trk=public_profile_topcard-current-company"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/Cytotalk2020/"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://www.facebook.com/cytotalk/"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://github.com/CytoTalk"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

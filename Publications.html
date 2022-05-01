@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CytoTalk</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"> <!--<img src=""> -->CytoTalk LLC</a>
+        <nav class="navigation" id="myTopnav">
+            <a href="index.html#services">Services</a>
+            <a href="index.html#projects">Events</a>
+            <a href="Team.html">Team</a>
+            <a href="publications.html">Publications</a>
+            <a href="Careers.html">Careers</a>
+            <a href="index.html#contact">Contact Us</a>
+            <a href="javascript:void(0);" class="icon-nav" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+    </header>
+    <!-- function-->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "navigation") {
+            x.className += " responsive";
+          } else {
+            x.className = "navigation";
+          }
+        }
+        </script>
+    <!-- End of function -->
+    <section class="Content">
+        <h1 class="title">List of Publications</h1>
+        <div class ="">
+            <ol class="pub-list">
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/35192691/">Rustagi Y, Abouhashem AS, Verma P, et al. Endothelial Phospholipase Cγ2 Improves Outcomes of Diabetic Ischemic Limb Rescue Following VEGF Therapy [published online ahead of print, 2022 Feb 22]. Diabetes. 2022;db210830. doi:10.2337/db21-0830</a></li><br><br>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/32323565/">Abouhashem AS, Singh K, Azzazy HME, Sen CK. Is Low Alveolar Type II Cell SOD3 in the Lungs of Elderly Linked to the Observed Severity of COVID-19?. Antioxid Redox Signal. 2020;33(2):59-65. doi:10.1089/ars.2020.8111</a></li><br><br>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/31478785/">Wisler JR, Singh K, Mccarty AR, Abouhashem ASE, Christman JW, Sen CK. Proteomic Pathway Analysis of Monocyte-Derived Exosomes during Surgical Sepsis Identifies Immunoregulatory Functions. Surg Infect (Larchmt). 2020;21(2):101-111. doi:10.1089/sur.2019.051</a></li><br><br>
+            </ol>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <p class="footer-title">Copyright © <span>2020 CytoTalk - All Rights Reserved.</span></p>
+        <p class="company-Address">1603 Capitol Ave. Suite 310 A105, Cheyenne, Wyoming 82001, United States</p>
+        <div class="social-icons">
+            <a href="https://eg.linkedin.com/company/cytotalk?trk=public_profile_topcard-current-company"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/Cytotalk2020/"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://www.facebook.com/cytotalk/"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://github.com/CytoTalk"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

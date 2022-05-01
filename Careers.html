@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CytoTalk</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"> <!--<img src=""> -->CytoTalk LLC</a>
+        <nav class="navigation" id="myTopnav">
+            <a href="index.html#services">Services</a>
+            <a href="index.html#projects">Events</a>
+            <a href="Team.html">Team</a>
+            <a href="publications.html">Publications</a>
+            <a href="Careers.html">Careers</a>
+            <a href="index.html#contact">Contact Us</a>
+            <a href="javascript:void(0);" class="icon-nav" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+    </header>
+    <!-- function-->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "navigation") {
+            x.className += " responsive";
+          } else {
+            x.className = "navigation";
+          }
+        }
+        </script>
+    <!-- End of function -->
+ 
+
+    <section class="Content">
+        <h1 class="title">Job Opportunities</h1>
+        <div class = "Careers">
+            <div class="job-offers">
+                <table cellspacing="20" class="job-table">
+                    <tr> 
+                        <th>Job-Code</th>
+                        <th id ="status">Status</th>
+                        <th>Job Describtion</th>
+                        <th id ="Salary"><i>Salary</i></th>
+                    </tr>
+                    <tr>
+                        <td>CT-001</td>
+                        <td id="status"><b>vacant</b></td>
+                        <td><a id ="jd" href="#job-title">Research Assistant</a></td>
+                        <td id ="Salary">negotiable</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="">
+                <p>Email:info@cytotalk.com <br> for inquiries, Please include your resume, the job code and title of the position you are applying for in the email.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Content">
+        <div class ="job-describtion">
+            <h3 id="job-title"> Research Assistant </h3>
+            <p> You will recieve training on how to find available high-throughput datasets specially in the field of single cell data analysis. You will also learn how to perform enrichment analysis. Your job includes searching and presenting available datasets and bioinformatics tools, perform downstream analysis such as enrichment of differentially expressed genes, reading literature and presenting research work and bioinformatics tools.
+            </p>
+        </div>
+    </section>
+
+
+
+    
+
+    <footer class="footer">
+        <p class="footer-title">Copyright © <span>2020 CytoTalk - All Rights Reserved.</span></p>
+        <p class="company-Address">1603 Capitol Ave. Suite 310 A105, Cheyenne, Wyoming 82001, United States</p>
+        <div class="social-icons">
+            <a href="https://eg.linkedin.com/company/cytotalk?trk=public_profile_topcard-current-company"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/Cytotalk2020/"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://www.facebook.com/cytotalk/"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://github.com/CytoTalk"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
